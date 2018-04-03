@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+    		<name>hbase.rootdir</name>
+    		<value>hdfs://hadoop01.td.com/hbase</value>
+    	</property>
+	<property>
+		<name>hbase.zookeeper.quorum</name>
+		<value>zk01.td.com,zk02.td.com,zk03.td.com</value>
+	</property>
+	<property >
+		<name>hbase.cluster.distributed</name>
+		<value>true</value>
+	</property>
+	<property>  
+        <name>hbase.superuser</name>  
+        <value>superuser-accout: Administrator</value>  
+    </property>
+</configuration> 
